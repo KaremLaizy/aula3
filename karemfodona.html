@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divescondida</title>
+    <style>
+        body
+        {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column; /* ajustar em linha*/
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .amarela
+        {
+            display: flex;
+            flex-direction: row; /* ajustar em linha*/
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+            width: 1000px; /*largura*/
+            height: 500px;  /*altura*/
+            background-color: rgb(241, 245, 7);
+            margin-top: 20px;
+            margin-left: 20px;
+            border: 8px;
+        }
+        .escondida
+        {
+            width: 450px; /*largura*/
+            height: 450px;  /*altura*/
+            background-color: rgb(241, 245, 7);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .escondida2
+        {
+            width: 450px; /*largura*/
+            height: 450px;  /*altura*/
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .azul
+        {
+            width: 150px; /*largura*/
+            height: 450px;  /*altura*/
+            background-color: rgb(7, 51, 244);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .azul2
+        {
+            width: 450px; /*largura*/
+            height: 100px;  /*altura*/
+            background-color: rgb(7, 51, 244);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="amarela">
+        <div class="escondida">
+            <div class="azul"></div>
+            <div class="azul"></div>
+        </div>
+        <div class="escondida2">
+            <div class="azul2"></div>
+            <div class="azul2"></div>
+            <div class="azul2"></div>
+        </div>
+    </div> 
+</body>
+</html>
